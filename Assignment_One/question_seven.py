@@ -12,7 +12,10 @@
 confidence = float(input("Enter confidence score (0.0 - 1.0): "))
 prediction = input("Enter prediction label : ")
 
-if confidence >= 0.9:
+if prediction == "":
+    print("Invalid prediction")
+
+elif confidence >= 0.9:
     print("Highly Reliable")
 
 elif confidence >=0.7 and confidence<=0.89:
@@ -20,5 +23,3 @@ elif confidence >=0.7 and confidence<=0.89:
 
 else:
     print("Unreliable Prediction")
-
-if prediction == "":print("Invalid Prediction")
