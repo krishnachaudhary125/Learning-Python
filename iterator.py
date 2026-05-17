@@ -7,3 +7,6 @@ print(next(carit))
 print(next(carit))
 print(next(carit))
 print(next(carit))
+
+for i in cars:
+    print(i)
