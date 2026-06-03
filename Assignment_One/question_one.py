@@ -15,7 +15,7 @@ backlog = int(input("Enter number of backlogs: "))
 if cgpa>=3.7 and attendance>=85 and backlog == 0:
     print("Full Scholarship")
 
-elif cgpa>=3.2 and attandance>=75:
+elif cgpa>=3.2 and attendance>=75:
     print("Partial Scholarship")
 
 else:
