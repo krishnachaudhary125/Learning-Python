@@ -1,8 +1,9 @@
-txt = "dad"
-check = ""
+def is_palindrome(txt):
+	check = ""
+	for char in txt:
+		check = char + check
+	if txt == check:
+		print("True")
 
-for char in txt:
-	check = char + check
+is_palindrome("dad")
 
-if txt == check:
-	print("True")
